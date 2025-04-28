@@ -30,7 +30,7 @@ Here's a walkthrough of implemented features:
 https://www.loom.com/share/91c69df04b1e42ae9a2b450685b92658?sid=d71ced7d-c55f-4689-b55a-5d3d9146f32a
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Loom  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -38,7 +38,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The process of building the webapp went smoothly overall, as the instructions provided were clear and well-structured. 
 
 ## License
 
