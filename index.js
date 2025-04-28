@@ -199,3 +199,33 @@ firstGameContainer.appendChild(topGameName);
 const secondGameName = document.createElement("p");
 secondGameName.innerHTML = secondGame.name;
 secondGameContainer.appendChild(secondGameName);
+
+
+/************************************************************************************
+ * Customizations: Feature 1 -- Add Search Bar Functionality
+ * 
+ */
+
+const searchBar = document.getElementById("search-bar");
+const searchResults = document.getElementById("search-results");
+
+function findGames() {
+    const query = searchBar.value.toLowerCase();
+    const filteredGames = GAMES_JSON.filter(game => 
+        game.name.toLowerCase().includes(query)
+    );
+
+    searchResults.innerHTML = '';
+
+    filteredGames.forEach(game => {
+        const gameElement = document.createElement("p");
+        gameElement.textContent = game.name;
+        searchResults.appendChild(gameElement);
+    });
+
+    if (filteredGames.length === 0 && query !== "") {
+        searchResults.innerHTML = "<p>No games found!</p>";
+    }
+}
+
+searchBar.addEventListener("input", findGames);
