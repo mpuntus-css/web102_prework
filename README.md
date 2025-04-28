@@ -27,7 +27,7 @@ The following **2** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-https://imgur.com/0HOHoT1
+https://www.loom.com/share/91c69df04b1e42ae9a2b450685b92658?sid=d71ced7d-c55f-4689-b55a-5d3d9146f32a
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Loom  
