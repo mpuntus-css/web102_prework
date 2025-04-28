@@ -81,3 +81,23 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button#go-to-games {
+    padding: 8px 16px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button#go-to-games:hover {
+    background-color: #3f9943;
+}

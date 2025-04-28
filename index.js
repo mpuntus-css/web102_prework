@@ -229,3 +229,16 @@ function findGames() {
 }
 
 searchBar.addEventListener("input", findGames);
+
+
+/************************************************************************************
+ * Customizations: Feature 2 -- Add a Button Functionality that Scrolls to "Our Games" Section 
+ * 
+ */
+
+const gamesSection = document.getElementById("button-container"); 
+const goToGamesButton = document.getElementById("go-to-games");
+
+goToGamesButton.addEventListener("click", () => {
+    gamesSection.scrollIntoView({ behavior: "smooth" });
+});
