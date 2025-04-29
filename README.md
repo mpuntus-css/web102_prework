@@ -29,6 +29,8 @@ Here's a walkthrough of implemented features:
 
 ![Sea Monster Crowdfunding](assets/WEB102_Prework_GIF.gif)
 
+https://imgur.com/gallery/web102-prework-f1x5HoA
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap  
 <!-- Recommended tools:
